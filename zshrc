@@ -124,3 +124,4 @@ alias tools='cd ~/Documents/tools/'
 alias config='cd ~/Documents/config/'
 # Tools
 alias norme='~/Documents/tools/Norme-C/./norme'
+alias compil='gcc -Wall -Werror -Wextra'
