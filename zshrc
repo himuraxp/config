@@ -118,6 +118,7 @@ bindkey -s "^[OX" "="
 # Alias
 # Dossier
 alias libft='cd ~/Documents/my42/project/libft/'
+alias fillit='cd ~/Documents/my42/project/fillit/'
 alias check='cd ~/Documents/check/'
 alias tools='cd ~/Documents/tools/'
 alias config='cd ~/Documents/config/'
