@@ -46,15 +46,16 @@ set laststatus=2
 
 " autopair configuration
 inoremap ( ()<left>
-inoremap { {<CR>}<left>
+inoremap { {<CR>}<left><CR><Up><Tab>
 inoremap < <><left>
+inoremap [ []<left>
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ;	<End>;
 
 " auto condition configuration
-inoremap while while <CR>{<CR>}<left><CR><Up><Tab><Up><Up><End>()<Left>
-inoremap if if ()<left>
+""inoremap while while <CR>{<CR>}<left><CR><Up><Tab><Up><Up><End>()<Left>
+""inoremap if if ()<left>
 
 
 " active keypad with windows keyboard
